@@ -9,7 +9,7 @@ DEVICE_PACKAGE_OVERLAYS += device/micromax/a240/overlay
 
 LOCAL_PATH := device/micromax/a240
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
+	LOCAL_KERNEL := $(LOCAL_PATH)/recovery/kernel
 else
 	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
