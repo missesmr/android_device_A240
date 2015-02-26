@@ -66,10 +66,6 @@ PRODUCT_COPY_FILES := \
 	$(LOCAL_PATH)/root/init.protect.rc:root/init.protect.rc \
 	$(LOCAL_PATH)/root/init.mt6589.usb.rc:/root/init.mt6589.usb.rc
 
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/media_codecs.xml:system/etc/media_codecs.xml \
-	$(LOCAL_PATH)/media_profiles.xml:system/etc/media_profile.xml
-
 PRODUCT_PROPERTY_OVERRIDES := \
     ril.specific.sm_cause=0 \
     gps.solution.combo.chip=1 \
